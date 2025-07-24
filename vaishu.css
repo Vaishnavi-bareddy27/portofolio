@@ -1,0 +1,124 @@
+*{
+    margin:0%;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+html{
+     scroll-behavior: smooth;
+     scroll-padding-top: 50px; 
+}
+body{
+   background-color: hsl(219, 62%, 93%);
+}
+nav{
+     background-color: hsl(210, 6%, 82%);
+     padding: 40px 20px;
+     position: sticky; 
+     top:0;
+}
+nav li a{
+    color: #7a3dd0; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-weight: bold;
+}
+nav li a:hover{
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 300px;
+    min-height: 100vh;
+    gap: 20px;
+    background: white;
+}
+.home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.home-image:hover{
+     box-shadow:0px 0px 10px 10px grey;
+}
+span{
+    color: #1d046e;
+    text-shadow: 10px #3333ff ;
+    font-family: cursive;
+}
+span:hover{
+    font-size: 45px;
+    background-color: hsl(255, 54%, 67%);
+}
+.fa-square-instagram, .fa-square-youtube ,.fa-square-twitter,.fa-square-whatsapp,.fa-linkedin{
+    font-size: 50px;
+    padding: 10px;
+}
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    min-height: 100vh;
+    gap: 20px;
+    background: white;
+}
+.about-content{
+    font-size: 20px;
+    font-family: serif;
+    text-align: justify;
+    
+}
+.Skills{
+    min-height: 100vh;
+    gap: 20px;
+    background: white;
+    padding: 150px 50px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.skills-grid{
+    text-align: center;
+}
+.skills-grid i{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.Achievements{
+    min-height: 100vh;
+    padding: 150px 50px;
+    background-color: white;
+    gap: 20px;
+}
+.Achievements p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+    font-style: bold;
+}
+.Contact{
+    height: 100vh;
+    padding:200px 150px;
+    background-color: white;
+}
